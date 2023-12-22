@@ -24,3 +24,36 @@ let isLoggedIn = false
 console.log(typeof "hello js")
 console.log(typeof null) // object
 console.log(typeof undefined) //undefined
+
+
+// Primitive
+// 7 types : string , number , boolean , BigInt , null , undefined , Symbol
+
+// reference (Non-Primitive)
+// Array , Objects , Functions
+
+const score = 100
+const isLoggedin = false
+const outsideTemp = null
+let userEmail = undefined
+
+const id = Symbol('123')
+const id2 = Symbol('123')
+
+console.log(id == id2)
+
+const bigNumber = 78963214789654124545n
+
+
+const avengers = ["ironMan" , "capAmerica" , "hulk"];
+let myObj = {
+    name: "prathmesh",
+    age: 18,
+}
+
+const myFunction = function(){
+    console.log("hello world")
+}
+
+console.log(typeof myFunction)
+console.log(typeof bigNumber)
