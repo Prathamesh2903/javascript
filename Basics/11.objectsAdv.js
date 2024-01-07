@@ -50,3 +50,22 @@ console.log(Object.values(cfUser)) // array of values
 console.log(Object.entries(cfUser)) // array of key value pairs
 
 console.log(cfUser.hasOwnProperty('rating')) // checks if properties present 
+
+
+const course = {
+    courseName: "javaScript",
+    coursePrice: "9696",
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor : instructor} = course // destructoring of object
+console.log(instructor)
+
+// API'S
+// JSON FORMAT
+// {
+//     "courseName": "javaScript",
+//     "coursePrice": "9696",
+//     "courseInstructor": "Hitesh"
+// }
+
