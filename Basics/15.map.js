@@ -31,3 +31,32 @@ const updateUser = users.map((user) => {
 
 console.log(updateUser)
 
+const menu = [
+    {
+        name:"poha",
+        category:"breakfast"
+    },
+    {
+        name:"paneer",
+        category:"lunch"
+    },
+    {
+        name:"chicken",
+        category:"dinner",
+    },
+    {
+        name:"eggs",
+        category:"breakfast",
+    }
+]
+
+const catgegories = [...new Set(menu.map((food)=>food.category))]
+console.log(catgegories)
+
+// map - get all instances
+// new Set - narrow down
+// [...] -> turn object into array 
+
+
+
+
